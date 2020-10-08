@@ -6,6 +6,16 @@ namespace Solid.BusinessRules
     public class Notification : INotification
     {
         private readonly IEmailService _emailService;
+        /*IYahoo
+         * ICustomMail
+         * IOutlook
+         * etc
+         *
+         * DB =>
+         * ISqlServer
+         * IOracle
+         * IMySql
+         */
         public Notification(IEmailService emailService)
         {
             _emailService = emailService;
